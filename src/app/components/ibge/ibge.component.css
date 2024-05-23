@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+td {
+    padding: 10px 300px;
+}
+
+thead td {
+    font-weight: bold;
+}

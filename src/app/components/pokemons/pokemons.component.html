@@ -1,0 +1,16 @@
+<div class="border">
+  <div class="title">
+    <h1>Pokémons (Pokedéx n° 1 ao 20)</h1>
+    <h2>Primeira evolução > Última evolução</h2>
+  </div>
+  <div class="container">
+    @for(pokemon of pokemons; track $index) {
+    <div class="pokemon-item">
+      <a href="{{pokemon.url}}">
+        <img src="{{ pokemon.imageUrl }}">
+        <p>{{ pokemon.name }}</p>
+      </a>
+    </div>
+    }
+  </div>
+</div>
